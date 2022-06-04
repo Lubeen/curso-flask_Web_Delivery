@@ -13,7 +13,7 @@ from delivery.ext.db import db
     #     "email": format_user
     
     # Todo descrever todos os models
-''
+
 
 class UserAdmin(ModelView):
     """Interface admin de user"""

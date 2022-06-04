@@ -132,5 +132,5 @@ dmypy.json
 delivery/delivery/delivery.db
 
 #config
-delivery/delivery/ext/config.py
+.secrets.toml
 

@@ -2,19 +2,15 @@
 name = "delivery"
 version = "0.1.0"
 description = ""
-authors = ["git"]
+authors = ["Lubeen <luan.silvapvh@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-Flask = "^2.1.2"
-Flask-Admin = "^1.6.0"
-SQLAlchemy = "^1.4.37"
-Flask-Migrate = "^3.1.0"
-Flask-DebugToolbar = "^0.13.1"
-pytest = "^7.1.2"
+dynaconf = "^3.1.8"
 
 [tool.poetry.dev-dependencies]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+

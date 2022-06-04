@@ -7,6 +7,7 @@ def create_app():
     """Factory to create a Flask app based on factory pattern"""
     app = Flask(__name__)
     config.init_app(app)
+    
     db.init_app(app)
     auth.init_app(app)
     admin.init_app(app)
