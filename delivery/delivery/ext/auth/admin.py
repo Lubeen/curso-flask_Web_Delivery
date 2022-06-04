@@ -6,14 +6,17 @@ from delivery.ext.auth.models import User
 from delivery.ext.db import db
 
 
-class UserAdmin(ModelView):
-    """Interface admin de user"""
 
-    # def format_user(self, request, user, *args):
+  # def format_user(self, request, user, *args):
     #     return user.email.split("@")[0]
     # column_formatters = {
     #     "email": format_user
-    # }
+    
+    # Todo descrever todos os models
+
+
+class UserAdmin(ModelView):
+    """Interface admin de user"""
 
     column_formatters = {
         "email": lambda s, r, u, *a: Markup(f'<b>{u.email.split("@")[0]}</b>')

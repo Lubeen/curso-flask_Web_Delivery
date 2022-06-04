@@ -130,3 +130,7 @@ dmypy.json
 
 # db
 delivery/delivery/delivery.db
+
+#config
+delivery/delivery/ext/config.py
+

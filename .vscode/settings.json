@@ -1,3 +1,18 @@
 {
-    "makefile.extensionOutputFolder": "./.vscode"
+    "makefile.extensionOutputFolder": "./.vscode",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:curso-flask_Web_Delivery}/delivery/delivery/delivery.db",
+            "name": "delivery.py"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:curso-flask_Web_Delivery}/-- SQLite.sql",
+            "name": "sql"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
 }

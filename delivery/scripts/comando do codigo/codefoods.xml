@@ -1,0 +1,1 @@
+python vertabelo_flask_sqlalchemy.py -i ../todo.xml -o

@@ -1,5 +1,5 @@
 import click
-
+from delivery.ext.auth import models
 from delivery.ext.db.commands import create_db, drop_db, populate_db
 
 
