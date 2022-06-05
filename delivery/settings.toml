@@ -3,13 +3,13 @@ DEBUG = false
 FLASK_ADMIN_SWATCH = "cerulean"
 ADMIN_NAME = "Twitch Foods"
 EXTENSIONS = [
-    "delivery.delivery.ext.db:init_app",
-    "delivery.delivery.ext.admin:init_app",
-    "delivery.delivery.ext.auth:init_app",
-    "delivery.delivery.ext.cli:init_app",
-    "delivery.delivery.ext.site:init_app",
-    "delivery.delivery.ext.toolbar:init_app",
-    "delivery.delivery.ext.hooks:init_app"
+    "delivery.ext.db:init_app",
+    "delivery.ext.auth:init_app",
+    "delivery.ext.admin:init_app",
+    "delivery.ext.cli:init_app",
+    "delivery.ext.toolbar:init_app",
+    "delivery.ext.site:init_app",
+    "delivery.ext.hooks:init_app",
 ]
 
 [development]

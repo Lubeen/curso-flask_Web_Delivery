@@ -1,4 +1,5 @@
 from flask import Flask, session
+#session  ideal para controlar autheticaço do usuario, quando fez login, tempo de duraço, quando saiu
 
 app = Flask(__name__)
 
