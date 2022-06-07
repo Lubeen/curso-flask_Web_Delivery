@@ -7,6 +7,13 @@ authors = ["Lubeen <luan.silvapvh@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 dynaconf = "^3.1.8"
+ipdb = "^0.13.9"
+email-validator = "^1.2.1"
+Flask-WTF = "^1.0.1"
+Flask-Admin = "^1.6.0"
+SQLAlchemy = "^1.4.37"
+Flask-Migrate = "^3.1.0"
+Flask-DebugToolbar = "^0.13.1"
 
 [tool.poetry.dev-dependencies]
 
